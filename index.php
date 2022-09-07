@@ -22,7 +22,7 @@
                 // Code de vérification 
                 ?>
             </form>
-            <form action="pageInscription.php" method="POST">
+            <form action="pageInscription.php" class="back" method="POST">
                 
 
                 <input type="submit" id='submit' value='inscris toi' >
