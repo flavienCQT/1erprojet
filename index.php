@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="main.css" media="screen" type="text/css" />
     </head>
     <body>
-        <div id="container">
+        <div id="container" class="acceuil">
             <!-- zone de connexion -->
             
             <form action="verification.php" method="POST">
@@ -22,7 +22,7 @@
                 // Code de vérification 
                 ?>
             </form>
-            <form action="pageInscription.php" class="back" method="POST">
+            <form action="pageInscription.php" method="POST">
                 
 
                 <input type="submit" id='submit' value='inscris toi' >
