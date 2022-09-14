@@ -2,7 +2,7 @@
     <head>
        <meta charset="utf-8">
         <!-- importer le fichier de style -->
-        <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+        <link rel="stylesheet" href="main.css" media="screen" type="text/css" />
     </head>
     <body>
         <div id="container">
@@ -22,7 +22,7 @@
                 // Code de vérification 
                 ?>
             </form>
-            <form action="pageInscription.php" method="POST">
+            <form action="pageInscription.php" class="back" method="POST">
                 
 
                 <input type="submit" id='submit' value='inscris toi' >
